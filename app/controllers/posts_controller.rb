@@ -4,20 +4,15 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.all
+    @post = Post.new
   end
 
-  def show; end
-
-  def edit; end
-  
-  def destroy; end
-  
   def create
     @post = current_user.posts.build(post_params)
 
     respond_to do |format|
       if @post.save
-        format.html { redirect_to new_post_path, notice: 'Post was successfully created.' }
+        format.html { redirect_to root_path, notice: 'Post was successfully created.' }
         format.json { render :show, status: :created, location: @post }
       else
         format.html { render :new }
@@ -30,6 +25,11 @@ class PostsController < ApplicationController
     @post = current_user.posts.build
   end
 
+  def show; end
+
+  def edit; end
+  
+  def destroy; end
 
 private
 

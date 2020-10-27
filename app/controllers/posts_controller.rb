@@ -1,6 +1,10 @@
 class PostsController < ApplicationController
   before_action :authenticate_user!, only: %i[new create]
 
+  def index
+    
+  end
+  
   def create
     
   end
@@ -8,6 +12,4 @@ class PostsController < ApplicationController
   def new
     @post = Post.new
   end
-  
-  
 end

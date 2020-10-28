@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../stylesheets/registrations.scss"
+    ],
+    "names": [],
+    "file": "registrations.css"
+}

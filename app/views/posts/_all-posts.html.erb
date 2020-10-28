@@ -11,7 +11,9 @@
       <article class="media">
         <div class="media-content">
           <div class="content">
+          <% if user_signed_in? %>
             <small><%= post.user.name %></small><br/>
+          <% end %>  
             <p><%= post.post %></p>
           </div>
         </div>

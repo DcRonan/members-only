@@ -58,7 +58,7 @@ We have build a working app that lets you create your own posts, multiple users 
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](enter issues url here).
+Feel free to check the [issues page](https://github.com/DcRonan/members-only/issues).
 
 ### Show your support
 

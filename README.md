@@ -1,6 +1,6 @@
 # Members Only
 ![Microverse](https://img.shields.io/badge/-Microverse-6F23FF?style=for-the-badge)
-> The purpose of the project was to create a post feed where users can create their own posts.
+> The purpose of the project was to create a post feed where users can create their posts.
 ## Library Directory 📙
  
 | Contents        |
@@ -14,7 +14,7 @@
 
 ## Description
 
-We have build a working app that lets you create your own posts, multiple users with name, username, email and password and the ability to edit your account details.
+We built a working app that lets you create your posts, multiple users with name, username, email and password and the ability to edit your account details.
 
 ## Built With 🛠
 ```
@@ -33,7 +33,7 @@ We have build a working app that lets you create your own posts, multiple users 
 1. - [ ] Open your `Terminal`
 2. - [ ] Navigate to the directory where you will like to install the repo by running `cd FOLDER-NAME`
 3. - [ ] Run `git clone git@github.com:DcRonan/members-only.git` to download <b>or</b> you can download using `HTTPS` by running `git clone https://github.com/DcRonan/members-only.git` in the terminal
-4. - [ ] Run `cd members-only` to enter directory
+4. - [ ] Run `cd members-only` to enter the directory
 5. - [ ] Run `bundle install` to install Ruby Gems (<b>hint:</b> Mac users, if not working then run `sudo bundle install`)
 6. - [ ] Run `rails db:create` to create your database
 7. - [ ] Run `rails db:migrate` to migrate your database
